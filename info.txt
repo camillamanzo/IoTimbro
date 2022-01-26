@@ -1,0 +1,17 @@
+Applicazione che scrive e legge NFC.
+Dal telefono, apriamo l'app, avviciniamo l'NFC e scriviamo il nome e il cognome del proprietario.
+quindi needle:dove si scrive -> collegato alla variabile da mettere in ndef.write()
+il db deve avere l'ID e il come e cognome del proprietario del tag
+
+
+
+IOTIMBRO
+frontend: 
+    pagina di accoglienza -> pulzante per far leggere l'NFC
+    dopo aver timbrato -> data,ora, + ciao nome e cognome (buongiorno se timbro paro/ arrivederci se timbro disparo)
+    dopo 10 secondi si ritorna alla pagina di accoglienza
+
+backend:
+    gestire ora e data di oggi 
+    gestire numero di timbri : se disparo entrata, se paro uscita
+    gestire in caso di dimenticanza (dopo mezzanotte si aggiunge uscita)
